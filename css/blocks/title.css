@@ -1,0 +1,15 @@
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}

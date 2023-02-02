@@ -1,0 +1,33 @@
+.slick-dots {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.slick-dots li {
+  margin: 0 7px;
+}
+.slick-dots button {
+  font-size: 0;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(36, 163, 255, 0.2);
+}
+.slick-dots button:hover {
+  color: #24a3ff;
+}
+
+.slick-dots li:hover {
+  color: #24a3ff;
+}
+
+.slick-dots:hover {
+  color: #24a3ff;
+}
+
+.slick-dots li.slick-active button {
+  background-color: rgba(36, 163, 255, 1);
+}

@@ -1,0 +1,11 @@
+.anchor {
+  display: flex;
+  justify-content: space-around;
+  align-self: auto;
+}
+.anchor:hover circle {
+  stroke: #f0145a;
+}
+.anchor:hover path {
+  stroke: #f0145a;
+}

@@ -1,0 +1,21 @@
+.slash {
+    width: 12px;
+    height: 26px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+@media screen and (min-width: 768px) {
+    .slash {
+        width: 21px;
+        height: 47px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .slash {
+        margin-left: 4px;
+    }
+}
+
+

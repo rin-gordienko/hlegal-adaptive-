@@ -1,0 +1,103 @@
+.pros__text {
+  padding-top: 9px;
+}
+.pros__pic {
+  padding-right: 13px;
+  padding-left: 3px;
+}
+.pros__text-about {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 20px;
+}
+.pros__graph {
+  border-left: 4px solid #e6e6f0;
+  padding-left: 30px;
+  margin-bottom: 29px;
+}
+
+.pros__graph-space {
+  margin: 29px 0 39px 0;
+}
+.pros__graph-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding-bottom: 11px;
+}
+.pros__graph-number {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+.pros__graph-info {
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+}
+.pros__graph-one::before {
+  content: url(.../img/one-flag.svg);
+}
+
+@media screen and (min-width: 768px) {
+  .pros__text {
+    padding-top: 8px;
+  }
+  .pros__graph {
+    margin-bottom: 58px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pros {
+    margin-bottom: 58px;
+    display: flex;
+  }
+  .pros__info {
+    max-width: 57%;
+  }
+  .pros__text {
+    max-width: 90%;
+  }
+  .pros__text-0 {
+    margin-top: 0;
+  }
+}
+.pros__graph-space {
+  margin: 0px 0 38px 0;
+}
+.pros__pic {
+  padding-right: 11px;
+  padding-left: 2px;
+}
+.pros__graph {
+  margin-bottom: 150px;
+  max-width: 43%;
+  padding-left: 32px;
+}
+
+@media screen and (min-width: 1201px) {
+  .pros {
+    margin-bottom: 0px;
+  }
+
+  .pros__info {
+    max-width: 64%;
+  }
+  .pros__text {
+    max-width: 100%;
+  }
+  .pros__graph {
+    margin-bottom: 118px;
+    max-width: 36%;
+    padding-left: 33px;
+  }
+}

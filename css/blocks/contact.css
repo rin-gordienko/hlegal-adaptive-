@@ -1,0 +1,156 @@
+.contact__form {
+  background-color: #f5f5fa;
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  color: #b3b3ba;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+}
+
+.focused {
+  color: #000000;
+  border: 1px solid #24a3ff;
+  background-color: #f0145a;
+}
+.filled {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
+}
+.invalid {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
+
+.disabled {
+  background: #ededf7;
+  border: 1px solid #ededf7;
+  color: #b3b3ba;
+}
+
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.contact__info-text {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #323264;
+  margin-bottom: 30px;
+}
+
+.contact__address {
+  padding-bottom: 30px;
+  border-bottom: 4px solid #e6e6f0;
+}
+
+.contact__phone {
+  margin-bottom: 15px;
+}
+.input__message {
+  margin-bottom: 30px;
+}
+.contact__mail {
+  color: #24a3ff;
+}
+
+.contact__info-details {
+  padding: 30px 0;
+  margin-bottom: 30px;
+  border-bottom: 4px solid #e6e6f0;
+}
+
+.contact__facebook-text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+  margin-left: 10px;
+}
+
+.contact__facebook {
+  display: flex;
+  align-items: center;
+}
+
+.input__general-info {
+  margin: 30px 0;
+}
+
+.input__name {
+  margin-bottom: 15px;
+}
+
+.contact__qq {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+}
+
+.input__phone {
+  margin: 15px 0;
+}
+.input__email {
+  margin-bottom: 30px;
+}
+
+.input__button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 18px 30px;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.input__button:hover {
+  background: #0085ff;
+}
+
+.input__button:active {
+  background: #006ccf;
+}
+
+.contact__facebook-link:hover svg path {
+  fill: #f0145a;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+  .contact__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  }
+  .contact__info {
+    width: 50%;
+    margin-right: 60px;
+  }
+}

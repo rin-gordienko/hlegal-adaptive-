@@ -1,0 +1,160 @@
+.publications {
+  padding: 29px 0;
+}
+
+.publications-page {
+  padding-bottom: 30px;
+}
+
+.publications__list-page {
+  padding-top: 30px;
+  margin-top: 10px;
+}
+
+.publications__page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.publications__item-page {
+  padding: 15px 0;
+}
+
+.publications__name {
+  padding-top: 5px;
+}
+.publications__list {
+  margin: -15px 0;
+  padding-top: 28px;
+}
+.publications__item {
+  width: 100%;
+  padding: 15px 0;
+}
+.publications__item-box {
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.publications__item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24a3ff;
+  margin-bottom: 15px;
+}
+.publications__item:hover {
+  color: #0085ff;
+}
+.publications__item:active {
+  color: #006ccf;
+}
+
+.publications__item-data {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+  margin-bottom: 15px;
+}
+.publications__item-text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  border-top: 4px solid #e6e6f0;
+  padding-top: 15px;
+}
+
+.publications__text {
+  padding: 30px;
+}
+.publications__pic {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  height: 200px;
+}
+
+.publications__btn-more {
+  padding: 18px 30px;
+  width: 211px;
+  height: 56px;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  display: block;
+  margin: 15px auto 0;
+  cursor: pointer;
+}
+
+.publications__btn-more:hover {
+  background: #0085ff;
+}
+
+.publications__btn-more:active {
+  background: #006ccf;
+}
+@media screen and (min-width: 768px) {
+  .publications__list-page {
+    margin-top: 60px;
+  }
+  .publications__item-page {
+    width: 50%;
+    padding: 15px;
+  }
+  .publications__page-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .publications__wrapper {
+    display: flex;
+  }
+  .publications__name {
+    padding-top: 10px;
+  }
+  .publications__list {
+    display: flex;
+    flex-direction: column;
+    margin: -15px -15px;
+  }
+  .publications__item {
+    padding: 15px 15px;
+  }
+  .publications__item-box {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* .publications-page {
+padding: 30px 0;
+margin-top: 60px;
+
+}
+.publications-list-page {
+display: flex;
+}  */
+
+  .publications__item-page {
+    width: 33%;
+  }
+  .publications__wrapper {
+    display: contents;
+  }
+  .publications__list {
+    flex-direction: row;
+    padding-top: 29px;
+  }
+  .publications__item {
+    width: 100%;
+  }
+}

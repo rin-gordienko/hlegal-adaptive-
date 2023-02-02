@@ -1,0 +1,16 @@
+.main-about {
+    margin-top: 36px;
+}
+
+@media screen and (min-width: 768px) { 
+    .main-about {
+        margin-top: 60px;
+    
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    .main-about {
+        margin-top: 56px;
+    }
+}
